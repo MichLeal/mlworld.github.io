@@ -1,0 +1,97 @@
+*{margin: 0;border: 0; } 
+body{background-color: #ffffff;}
+nav{background-color: #000000; padding: 20px;}
+li{list-style: none; display: inline-block;}
+a{text-decoration: none; color: #ffffff; padding: 0px 30px;}
+h1{color: #000000; font-size: 30px; text-align-last: center; font-family: 'Noto Serif Ahom', serif;
+font-family: 'Unbounded', cursive;}
+.contenedor{width: 80%; margin: auto; display: flex; justify-content: space-between;}
+img{width: 300px;}
+h2{text-align-last:center ;
+ margin: auto;
+ background-color:rgba(250, 250, 250, .50) ; 
+ width: 350px;
+  padding: 15px;
+  font-family: 'Noto Serif Ahom', serif;}
+div.imagenes{width: 70%; right: 0; left: 0; margin: auto;display: flex;justify-content: space-around;}
+div.imagenes img{
+	width: 70%;
+	height: 250px;
+	margin: 15px;
+}
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	bottom: 0;
+	align-items: center;
+	background-color: #000000;
+	padding: 20px 10px;
+	font-size: 20px;
+}
+	footer div.copy p{
+		color: white;
+	padding: 15px 5px;
+	font-size: 20px;
+	justify-content: left;
+	}
+	footer div.redes a{
+		color:  white;
+		padding: 0px 12px;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	
+div.noticias{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+div.noticias div{
+	width: 300px;
+}
+div.noticias div div.desc{
+	background-color: ffffff;
+	padding: 10px;
+}
+div.noticias div img{
+	width: 100%;
+	position: relative;
+}
+div.noticias div h1{
+	font-size: 30px;
+	color: #000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+div.contenedor img{
+	width: 450px;
+	display:inline ;
+	transition: all 1s;
+
+}
+div.contenedor img:hover{
+	filter: blur(10px);
+}
+nav.nav ul li{
+	list-style: none;
+	padding: 15px 50px;
+	transition: all 1s;
+
+}
+nav.nav ul li:hover{
+	background-color: #E9B105;
+}
+div.noticias div img{
+	width: 100%;
+	position: relative;
+	transition: all 1s;
+}
+div.noticias div img:hover{
+	filter: contrast(70%);
+	transform: translate(0px, -10%);
+}
